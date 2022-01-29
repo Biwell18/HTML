@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <h1>Criando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://open.spotify.com/playlist/757fcBMzgmgSF7BgFPP9GX?si=K69XIQkFSoC2HMRgVS4Yow&utm_source=whatsapp" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <!-- É necessário target="_blank" rel="external" para abrir site em nonva aba-->
+    <!--O atributo rel é utilizado para falar qual é a categoria do arquivo que estamos linkando, por isso passamos o valor stylesheet para o atributo rel quando estamos linkando uma forma de estilo no atributo href -->
+    <p>Você também pode acessar o canal <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=28" target="_blank" rel="external">Curso em Vídeo no Youtube</a></p>
+   
+    <h2>Utilizando links internos</h2>
+<!--Relação com outro página do mesmo servidor-->
+
+<p>Essa é a primeira página do site, se quiser pode acessar também <a href="pag002.html" rel="next" target="_self" > minha segunda página</a></p>
+<!--Dar valor com semântica-->
+
+<p>Você também pode acessar a minha<a href="noticias/index.html" rel="next" target="_self"> página de notícias</a></p>
+
+<h1> Links para download </h1>
+<ul>
+
+    <li><a href="Livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+    <li><a href="Livro/10 - Ligações em toda parte.zip" download="10 - Ligações em toda parte.zip" type="application/zip"> Livro</a></li>
+</ul>
+</head>
+<body>
+    
+</body>
+</html>
